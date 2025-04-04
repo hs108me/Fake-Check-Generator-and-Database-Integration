@@ -11,15 +11,15 @@ This project generates fake retail check data, stores it in CSV files, and autom
 - ⚙️ Configurable database connection
 
 ## Project Structure
-├── data/ # CSV files storage (auto-generated)
-├── sql/
-│ └── create_table.sql # DDL script for cheque table
-├── img/ # Screenshots for automation setup
-├── config.ini # Database credentials
-├── generate_data.py # Random check generator
-├── database_class.py # PostgreSQL connection handler
-├── run.py # CSV to database importer
-└── README.md
+├── data/ # CSV files storage (auto-generated)  
+├── sql/  
+│ └── create_table.sql # DDL script for cheque table  
+├── img/ # Screenshots for automation setup  
+├── config.ini # Database credentials  
+├── generate_data.py # Random check generator  
+├── database_class.py # PostgreSQL connection handler  
+├── run.py # CSV to database importer  
+└── README.md 
 
 ## Prerequisites
 
